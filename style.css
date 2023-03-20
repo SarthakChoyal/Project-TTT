@@ -1,0 +1,60 @@
+/* CSS styles for the game */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4ecd8;
+}
+#game-container {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+#game-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #f8e5c6;
+}
+#game-board {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #f8e5c6;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+.board-cell {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.board-cell:hover {
+  background-color: #eee;
+}
+#message {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#credits-bar {
+  text-align: center;
+  background-color: #e6d8b9;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
